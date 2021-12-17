@@ -36,14 +36,16 @@ function App() {
         for (var i = 0; i < User.length; i++)
             if (serviceID === User[i].serviceid) {
                 setUser(User[i]);
+                return;
             }
+        setUser("");
     };
     return (
         <div className="App">
             <Header />
             <header className="App-header">
                 <UserInputForm findUser={findService} issues={issues} />
-                <Results user={user} issues={issues} />;
+                <Results user={user} issues={issues} />
             </header>
         </div>
     );
