@@ -15,8 +15,14 @@ function App() {
         },
         {
             serviceid: "HXO13PLLP",
-            name: "Pratyush Kr",
+            name: "Abhay",
             problem: "OS not opening",
+            serviced: "NO",
+        },
+        {
+            serviceid: "PPLLAA33",
+            name: "Smriti",
+            problem: "MotherBoard",
             serviced: "NO",
         },
     ];
