@@ -5,7 +5,7 @@ export const Header = () => {
         <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand">
                         Diginet
                     </a>
                     <button
@@ -25,13 +25,13 @@ export const Header = () => {
                                 <a
                                     className="nav-link active"
                                     aria-current="page"
-                                    href="#"
+                                    href="/services"
                                 >
                                     Services
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">
+                                <a className="nav-link" href="/Admin">
                                     Admin
                                 </a>
                             </li>
